@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2.5vw;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hasParam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: black;
+}
+
+
+.background {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+  max-width: 800px;
+  min-width: 400px;
+  height: 15%;
+  top: 25%;
+  left: 25%;
+  z-index: 1;
+  background-color: white;
+}
+
+.bgimage {
+  position: flex;
+  width: 20%;
+  margin: 0 40%;
+}
+
+
+.keyvis {
+  width: 100%;
+  height: auto;
+  z-index: 150;
+}
+
+
+.hidden {
+  opacity: 0;
+}
